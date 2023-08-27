@@ -1,0 +1,154 @@
+.contact-form__content {
+  margin: 0 auto;
+  padding: 30px 15px;
+  max-width: 1230px;
+}
+
+.contact-form__heading {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.form {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+
+.form__group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.form__label--required {
+  color: #ff0000;
+}
+
+.form__error {
+  height: 20px;
+  color: #ff0000;
+  display: block;
+  text-align: left;
+}
+
+.form__group-content {
+    display: flex;
+    text-align: left;
+}
+
+.form__input--text input,
+.form__input--textarea textarea {
+  position: relative;
+  display: flex;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  appearance: none;
+  width: 800px;
+}
+
+.form__input--text span {
+    margin-left: 20px;
+    color: #ddd;
+}
+
+.form__input--name input{
+  display: flex;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  appearance: none;
+  width: 350px;
+}
+
+.form__input--name span {
+    padding-left: 20px;
+    color: #ddd;
+}
+
+.form__group-gender {
+    width: 820px;
+}
+
+.form__input--name:first-child {
+  padding-right: 100px;
+}
+
+.form__input--text input {
+  height: 40px;
+}
+
+.form__input--textarea textarea {
+  height: 180px;
+}
+
+.form__group-gender {
+    display: flex;
+}
+
+.Radio {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.Radio-Input {
+  appearance: none;
+   position: relative;
+  margin-right: 8px;
+  width: 35px;
+  height: 35px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  outline: none;
+}
+
+.Radio-Input:checked::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.Radio-Text {
+  font-size: 16px;
+  user-select: none;
+}
+
+.form__input--flex {
+    display: flex;
+    
+
+}
+
+.form__input--flex-item01 span{
+    color: #000;
+    margin-left: 0px;
+    padding-right:20px;
+}
+
+.postal-text {
+    max-width: 764px;
+
+}
+
+.form__button {
+  margin-top: 30px;
+}
+
+.form__button-submit {
+  padding: 10px;
+  width: 30%;
+  height: 50px;
+  border: none;
+  border-radius: 3px;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
